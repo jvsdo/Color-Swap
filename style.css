@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(255, 0, 0); /* set initial background color to red */
+  }
+  
+  button {
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  button:hover {
+    background-color: #666;
+  }
